@@ -1,9 +1,11 @@
 let listaTareas = [];
+
 function agregarTarea() {
   const tareaInput = document.getElementById("tareaInput");
   const tareaTexto = tareaInput.value;
 
   if (tareaTexto.trim() !== "") {
+    
     listaTareas.push(tareaTexto);
 
     const listaTareasElemento = document.getElementById("listaTareas");
